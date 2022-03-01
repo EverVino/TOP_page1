@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+  display: flex;
+    
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
