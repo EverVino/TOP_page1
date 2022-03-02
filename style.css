@@ -1,17 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
+    
     
 }
 
 .header {
     display:flex;
-    padding: 0 100px;
+    padding: 10px 15%;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    color: white;
-    flex:1;
+    color: #F9FAF8;
+    
+    
+    
 }
 
 .headerlogo{
@@ -30,16 +34,16 @@ ul{
 
 a{
     text-decoration: none;
-    color:white;
+    color:#F9FAF8;
 }
 
 .box1{
     display: flex;
     background-color: #1F2937;
-    color: white;
-    padding: 100px;
-    gap:20px;
-    
+    color: #F9FAF8;
+    padding: 10% 15%;
+    gap:5%;
+    align-items: center;
     
 }
 .content1{
@@ -49,34 +53,48 @@ a{
 .title1{
     font-size: 48px;
     color:#F9FAF8;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.text1{
+    margin-bottom: 15px;
 }
 button{
-    margin-top: 8px;
+    
     background-color: #3882f6;
-    padding: 15px;
-    color:white;
+    padding: 8px 30px 8px 30px;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+    
 }
 .imagen{
     flex:1;
     background-color: gray;
-    color:white;
+    color:#F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.imagen img {
+    width:300px;
+}
 .box2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50 100 50 100px;
+    padding: 5% 15%;
+    
     
 }
 
 .title2{
     font-size:32px;
     color:#1F2937;
-    padding: 50px;
+    padding-bottom: 5%;
+    font-weight: bolder;
     
 }
 .content2{
@@ -85,20 +103,23 @@ button{
 }
 
 .foto{
-    max-width: 120px;
+    max-width: 150px;
     text-align: center;
+    color:#1F2937;
 }
 .foto img{
-    border:  5px solid #3882f6;
-    width:100px;
-    height:100px;
+    border-radius: 10px;
+    
+    width:150px;
+    height:150px;
+    
 
 }
 
 .box3{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 15%;
     background-color: #E5E7EB;
     
 }
@@ -120,26 +141,34 @@ button{
 
 .box4{
     display: flex;
-    margin: 100px;
-    padding: 20px;
+    margin: 8% 15%;
+    padding: 3% 8%;
     justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
-    color:white;
-    flex:1;
+    color:#F9FAF8;
+    display: flex;
     
+    
+}
+.box4 button{
+    border:3px solid #F9FAF8;
+    
+
 }
 .title4{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
-    
+    margin:0%
 }
 .text4{
+    font-size: 18px;
+    margin:0;
     
 }
 footer{
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     padding: 50px;
     
     text-align: center;
